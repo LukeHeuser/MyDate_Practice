@@ -3,7 +3,7 @@ public class MyDate {
     int month;
     int year;
 
-    { //Initialization block that sets a 'default' date if the no-args constructor is called
+    { //Initialization block that sets a 'default' date when ever an object is initialized, the no-args constructor will all the use of this information
         day = 1;
         month = 1;
         year = 2000;
